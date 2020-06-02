@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: muller-manifests
+  namespace: openshift-operators
+spec:
+  sourceType: grpc
+  image: quay.io/petr-muller/metering-operator-index:latest
