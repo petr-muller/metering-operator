@@ -7,5 +7,5 @@ LABEL operators.operatorframework.io.bundle.package.v1=metering-ocp
 LABEL operators.operatorframework.io.bundle.channels.v1=4.6
 LABEL operators.operatorframework.io.bundle.channel.default.v1=4.6
 
-COPY 4.6 /manifests/
+COPY 4.6/*.yaml /manifests/
 COPY metadata /metadata/
