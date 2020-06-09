@@ -508,8 +508,6 @@ spec:
                     value: "quay.io/openshift/origin-metering-hadoop:4.6"
                   - name: GHOSTUNNEL_IMAGE
                     value: "quay.io/openshift/origin-ghostunnel:4.6"
-                  - name: OAUTH_PROXY_IMAGE
-                    value: "quay.io/openshift/origin-oauth-proxy:4.6"
                   ports:
                   - name: http-metrics
                     containerPort: 8383
